@@ -1,0 +1,54 @@
+
+         Imagen: (cronometro(intervalo 50) en cuadro de imagen)
+Static a As Integer
+a = a + 1
+If a = 5 Then
+Picture1.Picture = LoadPicture("f:\imagen.jpg")
+End If
+If a = 75 Then
+a = 0
+End If
+
+                                          PARA VIDEOS E IMAGENES
+
+         Sonido en commandbutom (componente WindowsMediaPlayer)
+sonido = "F:\direcciondesonido\clic.wma"
+WindowsMediaPlayer1.URL = sonido
+WindowsMediaPlayer1.Visible = False
+
+         Video con WindowsMedia Player y CommonDialog (en Editor de menus)
+    Name: mabrir      
+CommonDialog1.ShowOpen
+WindowsMediaPlayer1.URL = CommonDialog1.FileName
+
+    Name: mcerrar    
+MsgBox ("Escribe un mensaje aqui"), vbInformation, "LUIS"
+WindowsMediaPlayer1.Close
+
+         Video especifico
+video = "D:\Fotos de Luis\word\Tarea de Luis (EPT)\calculadora a cuenta\usuario visual\audio\tutorial.wmv"
+windowsmediaplayer1.URL = video
+windowsmediaplayer1.Visible = True
+
+         Buscar imagen (con commondialog)
+CommonDialog1.ShowOpen
+Picture1.Picture = LoadPicture(CommonDialog1.FileName)
+
+          Esperar para pasar(escoger tiempo de intervalo)
+Static a As Integer
+a = a + 1
+If a = 5 Then
+Form1.Hide
+Form2.Show
+End If
+
+           cancelar el paso de timer
+Timer1.Enabled = False
+form2.Hide
+form1.show
+
+                                    CREAR CARPETA
+Dim anjes As Object
+Set anjes = CreateObject("scripting.filesystemobject")
+anjes.createfolder "C:\Users\Casa\Desktop\Nueva Carpeta"
+MsgBox "Su carpeta ha sido creada con exito", vbInformation, "Titulo"

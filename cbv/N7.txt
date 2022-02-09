@@ -1,0 +1,43 @@
+                                                                    CENTRAR IMAGEN
+
+Option Explicit
+
+Sub centrar_imagen()
+With picture1
+.Left = (Me.ScaleWidth - .Width) / 2
+.Top = (Me.ScaleHeight - .Height) / 2
+End With
+End Sub
+
+Private Sub abrir_Click()
+On Error GoTo errSub
+
+    With commondialog1
+       .DialogTitle = "Abrir un archivo de imagen"
+       .Filter = "Archivos de imagenes *.jpg;*jpeg;*png;*bmp;*gif"
+       .ShowOpen
+       If .FileName = "" Then Exit Sub
+       
+       picture1.Picture = LoadPicture(.FileName)
+       centrar_imagen
+    End With
+       
+Exit Sub
+errSub:
+If Err.Number = 53 Then
+   MsgBox "No se puede cargar dicho archivo, verifique la ruta", vbCritical
+End If
+End Sub
+
+
+Private Sub Form_Resize()
+centrar_imagen
+End Sub
+
+Private Sub nuevo_Click()
+picture1.Picture = LoadPicture()
+End Sub
+
+Private Sub salir_Click()
+Unload Me
+End Sub

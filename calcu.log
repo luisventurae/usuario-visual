@@ -1,0 +1,25 @@
+Línea 308: la clase WMPLibCtl.WindowsMediaPlayer del control wmp1 no era una clase de control cargada.
+Línea 315: el nombre de la propiedad URL de wmp1 no es válido.
+Línea 316: el nombre de la propiedad rate de wmp1 no es válido.
+Línea 317: el nombre de la propiedad balance de wmp1 no es válido.
+Línea 318: el nombre de la propiedad currentPosition de wmp1 no es válido.
+Línea 319: el nombre de la propiedad defaultFrame de wmp1 no es válido.
+Línea 320: el nombre de la propiedad playCount de wmp1 no es válido.
+Línea 321: el nombre de la propiedad autoStart de wmp1 no es válido.
+Línea 322: el nombre de la propiedad currentMarker de wmp1 no es válido.
+Línea 323: el nombre de la propiedad invokeURLs de wmp1 no es válido.
+Línea 324: el nombre de la propiedad baseURL de wmp1 no es válido.
+Línea 325: el nombre de la propiedad volume de wmp1 no es válido.
+Línea 326: el nombre de la propiedad mute de wmp1 no es válido.
+Línea 327: el nombre de la propiedad uiMode de wmp1 no es válido.
+Línea 328: el nombre de la propiedad stretchToFit de wmp1 no es válido.
+Línea 329: el nombre de la propiedad windowlessVideo de wmp1 no es válido.
+Línea 331: el nombre de la propiedad enableContextMenu de wmp1 no es válido.
+Línea 332: el nombre de la propiedad fullScreen de wmp1 no es válido.
+Línea 333: el nombre de la propiedad SAMIStyle de wmp1 no es válido.
+Línea 334: el nombre de la propiedad SAMILang de wmp1 no es válido.
+Línea 335: el nombre de la propiedad SAMIFilename de wmp1 no es válido.
+Línea 336: el nombre de la propiedad captioningID de wmp1 no es válido.
+Línea 337: el nombre de la propiedad enableErrorDialogs de wmp1 no es válido.
+Línea 338: el nombre de la propiedad _cx de wmp1 no es válido.
+Línea 339: el nombre de la propiedad _cy de wmp1 no es válido.

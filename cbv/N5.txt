@@ -1,0 +1,56 @@
+
+            NAVEGADOR WEB (componente Microsoft Internet Controls)
+         Ir
+WebBrowser1.Navigate2 Text1.Text
+
+         Actualizar o recargar
+WebBrowser1.Refresh
+
+         Atras
+WebBrowser1.GoBack
+
+         Adelante
+WebBrowser1.GoForward
+
+         Para acceso directo a la pagina (en el Formulario)
+WebBrowser1.Navigate2 ("www.google.com.pe")
+
+                                                       AÑADIR A LA LISTA DE COMBO
+         Combobox
+Label1.Caption = Combo1.Text
+
+         Commandbuttom (Con textbox)	
+Combo1.AddItem Text1.Text
+
+         Commandbuttom (Con textbox)
+combo1.AddItem combo1.text
+
+                                BLOQUEAR Y DESBLOQUEAR COMANDOS CON                                                                OPTIONBUTOM
+         Hacer visible el siguiente frame
+If option1.Value = 1 Then
+Frame2.Visible = True
+option3.Visible = True
+Else
+Frame2.Visible = True
+option3.Visible = True
+End If
+   
+        No hacer visible el siguiente frame
+If option2.Value = 1 Then
+Frame2.Visible = False
+option3.Visible = False
+command1.Enabled = False
+Else
+Frame1.Visible = False
+option3.Visible = False
+command1.Enabled = False
+End If
+
+         Desbloquear el siguiente comando
+If option3.Value = 1 Then
+command1.Enabled = True
+Else
+command1.Enabled = True
+End If
+
+

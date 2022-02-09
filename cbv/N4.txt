@@ -1,0 +1,64 @@
+                                                         PARA CUADRO DE TEXTO
+
+        Letra Negrita en textbox(cuadro de verificacion):
+If check1.Value = 1 Then
+text1.Font.Bold = True
+Else
+text1.Font.Bold = False
+End If
+
+         Letra Cursiva en textbox(cuadro de verificacion):
+
+If check2.Value = 1 Then
+text1.Font.Italic = True
+Else
+text1.Font.Italic = False
+End If
+
+         Letra Mayuscula en textbox(cuadro de verificacion):
+If check3.Value = 1 Then
+text1.Text = UCase(text1.Text)
+Else
+text.Text = LCase(text1.Text)
+End If
+
+         Letra Azul en textbox(cuadro de verificacion):
+If check4.Value = 1 Then
+text1.ForeColor = RGB(0, 0, 255)
+Else
+text1.ForeColor = RGB(0, 0, 0)
+End If
+
+anaranjado "(231, 120 ,19)", cian "(0, 255, 255)"
+
+         Tamaño de Letra Option butom
+If opti0n1.Value = True Then
+text1.Font.Size = 10
+End If
+
+        Aceptar(combo)
+If combo1.Text = "nombre de lista" Then
+form1.Hide
+form2.Show
+End if
+
+If combo1.Text = "el otro nombre de la letra" Then
+form1.Hide
+form3.Show
+End If
+
+         Limpiar textbox
+text1.Text = ""
+
+         Tamaño en textbox
+If Command1.Value = 1 Then
+Text1.Font.Size = 10    '<---(un numero cualquiera)
+Else
+Text1.Font.Size = 10    '<---(un numero cualquiera)
+End If
+
+         Falso enviar
+MsgBox "mensaje enviado a Luis"
+text1.Text = ""
+
+                  

@@ -1,0 +1,778 @@
+INGLES A ESPAÑOL
+
+if text1.text = "I" then
+text2.text = "yo"
+end if
+if text1.text = "you" then
+text2.text = "tú"
+end if
+if text1.text = "he" then
+text2.text = "él"
+end if
+if text1.text = "she" then
+text2.text = "ella"
+end if
+if text1.text = "we" then
+text2.text = "nosotros"
+end if
+if text1.text = "they" then
+text2.text = "ellos"
+end if
+if text1.text = "the" then
+text2.text = "el"
+end if
+If Text1.Text = "que tal" Then
+Text2.Text = "how are you?"
+End If
+If Text1.Text = "cual es tu nombre" Then
+Text2.Text = "what is your name?"
+End If
+If Text1.Text = "como estas" Then
+Text2.Text = "how are you?"
+End If
+if text1.text = "my name is luis" then
+text2.text = "mi nombre es Luis"
+end if
+if text1.text = "your name is gerson" then
+text2.text = "tu nombre es Gerson"
+end if
+if text1.text = "your name is teo" then
+text2.text = "tu nombre es Teo"
+end if
+if text1.text = "your name is gloria" then
+text2.text = "tu nombre es Gloria"
+end if
+if text1.text = "I am luis" then
+text2.text = "yo soy Luis"
+end if
+if text1.text = "I live in perú" then
+text2.text = "yo vivo en Perú"
+end if
+if text1.text = "my school is julio cesar escobar" then
+text2.text = "mi colegio es Julio Cesar Escobar"
+end if
+if text1.text = "I'm 15 years old" then
+text2.text = "Tengo 15 años de edad"
+end if
+if text1.text = "my classroom is 5 D" then
+text2.text = "mi salón es 5° D"
+end if
+if text1.text = "we are the promotion 2012" then
+text2.text = "somos la promoción 2012"
+end if
+if text1.text = "hello" then
+text2.text = "hola"
+end if
+if text1.text = "hi" then
+text2.text = "hola"
+end if
+if text1.text = "good morning" then
+text2.text = "buenos dias"
+end if
+if text1.text = "good afternoon" then
+text2.text = "buenas tardes"
+end if
+if text1.text = "good night" then
+text2.text = "buenas noches"
+end if
+if text1.text = "good evening" then
+text2.text = "buenas noches"
+end if
+if text1.text = "good bye" then
+text2.text = "adiós"
+end if
+if text1.text = "good luck" then
+text2.text = "buena suerte"
+end if
+if text1.text = "how are you?" then
+text2.text = "¿cómo estas?"
+end if
+if text1.text = "so long" then
+text2.text = "hasta luego"
+end if
+if text1.text = "till tomorrow" then
+text2.text = "hasta mañana"
+end if
+if text1.text = "what is your name?" then
+text2.text = "¿cuál es tu nombre?"
+end if
+
+
+
+
+
+
+ESPAÑOL A INGLES
+
+
+if text1.text = "yo" then
+text2.text = "I"
+end if
+if text1.text = "tú" then
+text2.text = "you"
+end if
+if text1.text = "él" then
+text2.text = "he"
+end if
+if text1.text = "ella" then
+text2.text = "she"
+end if
+if text1.text = "nosotros" then
+text2.text = "we"
+end if
+if text1.text = "ellos" then
+text2.text = "they"
+end if
+if text1.text = "nosotras" then
+text2.text = "we"
+end if
+if text1.text = "ellas" then
+text2.text = "they"
+end if
+if text1.text = "mi nombre es luis" then
+text2.text = "my name is Luis"
+end if
+if text1.text = "tu nombre es gerson" then
+text2.text = "your name is Gerson"
+end if
+if text1.text = "tu nombre es teo" then
+text2.text = "your name is Teo"
+end if
+if text1.text = "tu nombre es gloria" then
+text2.text = "your name is Gloria"
+end if
+If Text1.Text = "tu nombre es jose" Then
+Text2.Text = "your name is José"
+End If
+If Text1.Text = "tu nombre es ricardo" Then
+Text2.Text = "your name is Ricardo"
+End If
+If Text1.Text = "tu nombre es melisa" Then
+Text2.Text = "your name is Melisa"
+End If
+If Text1.Text = "tu nombre es eduardo" Then
+Text2.Text = "your name is Eduardo"
+End If
+If Text1.Text = "tu nombre es orlando" Then
+Text2.Text = "your name is Orlandoo"
+End If
+If Text1.Text = "tu nombre es emilio" Then
+Text2.Text = "your name is Emilio"
+End If
+If Text1.Text = "tu nombre es fernando" Then
+Text2.Text = "your name is Fernando"
+End If
+If Text1.Text = "tu nombre es jackelin" Then
+Text2.Text = "your name is Jackeline"
+End If
+If Text1.Text = "tu nombre es nataly" Then
+Text2.Text = "your name is Nataly"
+End If
+
+If Text1.Text = "tu nombre es gianpier" Then
+Text2.Text = "your name is Gianpier"
+End If
+If Text1.Text = "tu nombre es alexandra" Then
+Text2.Text = "your name is Alexandra"
+End If
+If Text1.Text = "tu nombre es teresa" Then
+Text2.Text = "your name is Teresa"
+End If
+If Text1.Text = "tu nombre es leoncio" Then
+Text2.Text = "your name is Leoncio"
+End If
+If Text1.Text = "tu nombre es ines" Then
+Text2.Text = "your name is Inés"
+End If
+If Text1.Text = "tu nombre es graciela" Then
+Text2.Text = "your name is Graciela"
+End If
+If Text1.Text = "tu nombre es sandra" Then
+Text2.Text = "your name is Sandra"
+End If
+If Text1.Text = "tu nombre es sebastian" Then
+Text2.Text = "your name is Sebastian"
+End If
+If Text1.Text = "tu nombre es ellen" Then
+Text2.Text = "your name is Ellen"
+End If
+If Text1.Text = "tu nombre es leslie" Then
+Text2.Text = "your name is Leslie"
+End If
+If Text1.Text = "tu nombre es anthy" Then
+Text2.Text = "your name is Anthy"
+End If
+If Text1.Text = "tu nombre es miriam" Then
+Text2.Text = "your name is Miriam"
+End If
+if text1.text = "yo soy luis" then
+text2.text = "I'm Luis"
+end if
+if text1.text = "yo vivo en perú" then
+text2.text = "I'm live in Perú"
+end if
+if text1.text = "mi colegio es julio cesar escobar" then
+text2.text = "my school is Julio Cesar Escobar"
+end if
+if text1.text = "tengo 15 años" then
+text2.text = "I'm 15 years old"
+end if
+if text1.text = "mi salon es el 5°D" then
+text2.text = "my classroom is 5°D"
+end if
+if text1.text = "somos la promocion 2012" then
+text2.text = "we are the promotion 2012"
+end if
+if text1.text = "hola" then
+text2.text = "hello"
+end if
+if text1.text = "hola" then
+text2.text = "hi"
+end if
+if text1.text = "buenos dias" then
+text2.text = "good morning"
+end if
+if text1.text = "buenas tardes" then
+text2.text = "good afternoon"
+end if
+if text1.text = "buenas noches" then
+text2.text = "good night"
+end if
+if text1.text = "tu eres jose" then
+text2.text = "you are Jose"
+end if
+if text1.text = "chau" then
+text2.text = "bye"
+end if
+if text1.text = "buena suerte" then
+text2.text = "good luck"
+end if
+if text1.text = "¿como estas?" then
+text2.text = "how are you?"
+end if
+if text1.text = "hasta luego" then
+text2.text = "so long"
+end if
+if text1.text = "hasta mañana" then
+text2.text = "till tomorrow"
+end if
+if text1.text = "¿cual es tu nombre?" then
+text2.text = "what is your name?"
+end if
+if text1.text = "la" then
+text2.text = "the"
+end if
+if text1.text = "el" then
+text2.text = "the"
+end if
+if text1.text = "las" then
+text2.text = "the"
+end if
+if text1.text = "los" then
+text2.text = "the"
+end if
+if text1.text = "la mesa" then
+text2.text = "the table"
+end if
+if text1.text = "el calenadario" then
+text2.text = "the calender"
+end if
+if text1.text = "la ventana" then
+text2.text = "the window"
+end if
+if text1.text = "el perro" then
+text2.text = "the dog"
+end if
+if text1.text = "la computadora" then
+text2.text = "the computer"
+end if
+if text1.text = "el colegio" then
+text2.text = "the school"
+end if
+if text1.text = "el lapicero" then
+text2.text = "the pen"
+end if
+if text1.text = "el cuaderno" then
+text2.text = "the notebook"
+end if
+if text1.text = "la biblioteca" then
+text2.text = "the library"
+end if
+if text1.text = "el borrador" then
+text2.text = "the eraser"
+end if
+if text1.text = "el lapiz" then
+text2.text = "the pencil"
+end if
+if text1.text = "el salon" then
+text2.text = "the classroom"
+end if
+if text1.text = "muy bien" then
+text2.text = "very well"
+end if
+if text1.text = "gracias" then
+text2.text = "thank you"
+end if
+if text1.text = "amigo" then
+text2.text = "friend"
+end if
+if text1.text = "profesor" then
+text2.text = "teacher"
+end if
+if text1.text = "bienvenido" then
+text2.text = "welcome"
+end if
+if text1.text = "¿que tal?" then
+text2.text = "how are you?"
+end if
+if text1.text = "hasta pronto" then
+text2.text = "till"
+end if
+
+if text1.text = "correr" then
+text2.text = "run"
+end if
+if text1.text = "caminar" then
+text2.text = "walk"
+end if
+if text1.text = "hablar" then
+text2.text = "speak"
+end if
+if text1.text = "nadar" then
+text2.text = "swim"
+end if
+if text1.text = "escuchar" then
+text2.text = "listen"
+end if
+if text1.text = "mirar" then
+text2.text = "look"
+end if
+if text1.text = "estudiar" then
+text2.text = "study"
+end if
+if text1.text = "empezar" then
+text2.text = "start"
+end if
+if text1.text = "escribir" then
+text2.text = "write"
+end if
+if text1.text = "leer" then
+text2.text = "read"
+end if
+if text1.text = "observar" then
+text2.text = "observe"
+end if
+if text1.text = "poner" then
+text2.text = "put"
+end if
+if text1.text = "colocar" then
+text2.text = "place"
+end if
+if text1.text = "comprobar" then
+text2.text = "check"
+end if
+if text1.text = "ver" then
+text2.text = "see"
+end if
+if text1.text = "comer" then
+text2.text = "eat"
+end if
+if text1.text = "beber" then
+text2.text = "drink"
+end if
+if text1.text = "tomar" then
+text2.text = "take"
+end if
+if text1.text = "escoger" then
+text2.text = "choose"
+end if
+if text1.text = "grabar" then
+text2.text = "record"
+end if
+if text1.text = "lavar" then
+text2.text = "wash"
+end if
+if text1.text = "cocinar" then
+text2.text = "cook"
+end if
+if text1.text = "molestar" then
+text2.text = "disturb"
+end if
+if text1.text = "salir" then
+text2.text = "leave"
+end if
+if text1.text = "vivir" then
+text2.text = "live"
+end if
+if text1.text = "viajar" then
+text2.text = "travel"
+end if
+if text1.text = "cantar" then
+text2.text = "sing"
+end if
+if text1.text = "cerrar" then
+text2.text = "close"
+end if
+if text1.text = "minimizar" then
+text2.text = "minimize"
+end if
+if text1.text = "maximizar" then
+text2.text = "maximize"
+end if
+if text1.text = "hacer" then
+text2.text = "do"
+end if
+if text1.text = "tener" then
+text2.text = "have"
+end if
+if text1.text = "lanzar" then
+text2.text = "launch"
+end if
+if text1.text = "trabajar" then
+text2.text = "work"
+end if
+if text1.text = "bailar" then
+text2.text = "dance"
+end if
+if text1.text = "cenar" then
+text2.text = "dine"
+end if
+if text1.text = "vender" then
+text2.text = "sell"
+end if
+if text1.text = "comprar" then
+text2.text = "buy"
+end if
+if text1.text = "mover" then
+text2.text = "move"
+end if
+if text1.text = "cambiar" then
+text2.text = "change"
+end if
+if text1.text = "alumbrar" then
+text2.text = "light"
+end if
+if text1.text = "crear" then
+text2.text = "maker"
+end if
+if text1.text = "excluir" then
+text2.text = "exclude"
+end if
+if text1.text = "borrar" then
+text2.text = "delete"
+end if
+if text1.text = "botar" then
+text2.text = "throw"
+end if
+if text1.text = "votar" then
+text2.text = "vote"
+end if
+if text1.text = "alcanzar" then
+text2.text = "achieve"
+end if
+if text1.text = "extraer" then
+text2.text = "extract"
+end if
+if text1.text = "amar" then
+text2.text = "love"
+end if
+if text1.text = "querer" then
+text2.text = "want"
+end if
+if text1.text = "ir" then
+text2.text = "go"
+end if
+if text1.text = "seleccionar" then
+text2.text = "select"
+end if
+if text1.text = "aceptar" then
+text2.text = "accept"
+end if
+if text1.text = "oscurecer" then
+text2.text = "obscure"
+end if
+if text1.text = "decir" then
+text2.text = "say"
+end if
+if text1.text = "cargar" then
+text2.text = "load"
+end if
+if text1.text = "montar" then
+text2.text = "mount"
+end if
+if text1.text = "pegar" then
+text2.text = "paste"
+end if
+if text1.text = "golpear" then
+text2.text = "hit"
+end if
+if text1.text = "condtruir" then
+text2.text = "build"
+end if
+if text1.text = "romper" then
+text2.text = "break"
+end if
+if text1.text = "felicitar" then
+text2.text = "congratulate"
+end if
+if text1.text = "comentar" then
+text2.text = "comment"
+end if
+if text1.text = "talar" then
+text2.text = "cut"
+end if
+if text1.text = "cortar" then
+text2.text = "cut"
+end if
+if text1.text = "quemar" then
+text2.text = "burn"
+end if
+if text1.text = "dormir" then
+text2.text = "sleep"
+end if
+if text1.text = "soñar" then
+text2.text = "dream"
+end if
+if text1.text = "echar" then
+text2.text = "cast"
+end if
+if text1.text = "sacar" then
+text2.text = "get"
+end if
+if text1.text = "atar" then
+text2.text = "tie"
+end if
+if text1.text = "amarrar" then
+text2.text = "moor"
+end if
+if text1.text = "huir" then
+text2.text = "escape"
+end if
+if text1.text = "escapar" then
+text2.text = "escape"
+end if
+if text1.text = "ganar" then
+text2.text = "win"
+end if
+if text1.text = "desayunar" then
+text2.text = "dreakfast"
+end if
+if text1.text = "enseñar" then
+text2.text = "tech"
+end if
+if text1.text = "deletrear" then
+text2.text = "spell"
+end if
+if text1.text = "presumir" then
+text2.text = "presume"
+end if
+if text1.text = "imprimir" then
+text2.text = "print"
+end if
+if text1.text = "dibujar" then
+text2.text = "sketch"
+end if
+if text1.text = "pintar" then
+text2.text = "paint"
+end if
+if text1.text = "pelar" then
+text2.text = "peel"
+end if
+if text1.text = "inflar" then
+text2.text = "inflate"
+end if
+if text1.text = "rayar" then
+text2.text = "scratch"
+end if
+if text1.text = "limpiar" then
+text2.text = "clean"
+end if
+if text1.text = "ordenar" then
+text2.text = "order"
+end if
+if text1.text = "desordenar" then
+text2.text = "mess"
+end if
+if text1.text = "robar" then
+text2.text = "steal"
+end if
+if text1.text = "asustar" then
+text2.text = "scare"
+end if
+if text1.text = "devolver" then
+text2.text = "return"
+end if
+if text1.text = "barrer" then
+text2.text = "sweep"
+end if
+if text1.text = "raspar" then
+text2.text = "scrape"
+end if
+if text1.text = "arrancar" then
+text2.text = "start"
+end if
+if text1.text = "terminar" then
+text2.text = "end"
+end if
+if text1.text = "calificar" then
+text2.text = "quality"
+end if
+if text1.text = "extrañar" then
+text2.text = "surprise"
+end if
+if text1.text = "bienestar" then
+text2.text = "wilfare"
+end if
+if text1.text = "cuidar" then
+text2.text = "care"
+end if
+if text1.text = "contar" then
+text2.text = "count"
+end if
+if text1.text = "pagar" then
+text2.text = "pay"
+end if
+if text1.text = "orar" then
+text2.text = "pray"
+end if
+if text1.text = "rezar" then
+text2.text = "pray"
+end if
+if text1.text = "explotar" then
+text2.text = "exploit"
+end if
+if text1.text = "anotar" then
+text2.text = "annotate"
+end if
+if text1.text = "ayudar" then
+text2.text = "help"
+end if
+if text1.text = "estudiar" then
+text2.text = "stuty"
+end if
+if text1.text = "pensar" then
+text2.text = "think"
+end if
+if text1.text = "arreglar" then
+text2.text = "fix"
+end if
+if text1.text = "abrazar" then
+text2.text = "embrace"
+end if
+if text1.text = "resolver" then
+text2.text = "solve"
+end if
+if text1.text = "preguntar" then
+text2.text = "ask"
+end if
+if text1.text = "importante" then
+text2.text = "important"
+end if
+if text1.text = "importar" then
+text2.text = "import"
+end if
+if text1.text = "exportar" then
+text2.text = "export"
+end if
+if text1.text = "llevar" then
+text2.text = "lead"
+end if
+if text1.text = "responder" then
+text2.text = "answer"
+end if
+if text1.text = "conseguir" then
+text2.text = "get"
+end if
+if text1.text = "llamar" then
+text2.text = "call"
+end if
+if text1.text = "jugar" then
+text2.text = "play"
+end if
+if text1.text = "mentir" then
+text2.text = "lie"
+end if
+if text1.text = "conversar" then
+text2.text = "talk"
+end if
+if text1.text = "chatear" then
+text2.text = "chat"
+end if
+if text1.text = "abrir" then
+text2.text = "open"
+end if
+if text1.text = "buscar" then
+text2.text = "search"
+end if
+if text1.text = "detallar" then
+text2.text = "detail"
+end if
+if text1.text = "escanear" then
+text2.text = "scan"
+end if
+if text1.text = "estar" then
+text2.text = "be"
+end if
+if text1.text = "entrar" then
+text2.text = "enter"
+end if
+if text1.text = "examinar" then
+text2.text = "review"
+end if
+if text1.text = "aprender" then
+text2.text = "learn"
+end if
+if text1.text = "elegir" then
+text2.text = "choose"
+end if
+if text1.text = "reparar" then
+text2.text = "repair"
+end if
+if text1.text = "quejar" then
+text2.text = "complain"
+end if
+if text1.text = "opacar" then
+text2.text = "overshadow"
+end if
+if text1.text = "reir" then
+text2.text = "laugh"
+end if
+if text1.text = "sonreir" then
+text2.text = "smile"
+end if
+if text1.text = "jugar" then
+text2.text = "play"
+end if
+if text1.text = "malograr" then
+text2.text = "spoil"
+end if
+if text1.text = "curar" then
+text2.text = "cure"
+end if
+if text1.text = "accionar" then
+text2.text = "actuate"
+end if
+if text1.text = "jalar" then
+text2.text = "pull"
+end if
+if text1.text = "enfermar" then
+text2.text = "sicken"
+end if
+if text1.text = "sanar" then
+text2.text = "heal"
+end if
+if text1.text = "enfocar" then
+text2.text = "focus"
+end if
+if text1.text = "desenfocar" then
+text2.text = "blur"
+end if
+if text1.text = "pedir" then
+text2.text = "ask"
+end if
+If Text1.Text = "caer" Then
+Text2.Text = "fall"
+End If
+if text1.text = "yo solía" then
+text2.text = "I used to"
+end if

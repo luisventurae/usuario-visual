@@ -1,0 +1,106 @@
+                                  CODIGOS DE VISUAL BASIC 6.0
+
+ABREVIATURAS
+Command      cmd
+Text                txt
+Label               lbl
+Form               frm
+Combo           cmb
+Check             chk
+Option          opt
+Frame            fra
+
+   
+Hora y Fecha (con cronometro(intervalo 1 ))
+
+label1.caption = time
+label2.caption = date
+
+   Salir:
+End
+
+    Un mensaje:
+ msgbox "Un texto cualquiera"
+
+                                                              PARA CALCULADORA
+
+Suma:
+          text3.Text = val(text1.Text) + val(text2.Text)
+Resta:
+          text3.Text = val(text1.Text) - val(text2.Text)
+Multiplicacion:
+          text3.Text = val(text1.Text) * val(text2.Text)
+Division:
+          text3.Text = val(text1.Text) / val(text2.Text)
+
+                                                              CRONOMETRO
+
+Private Sub cmdempezar_Click()
+Timer1.Enabled = True
+cmdempezar.Caption = "continuar"
+cmdempezar.Enabled = False
+End Sub
+
+Private Sub cmdfin_Click()
+Timer1.Enabled = False
+cmdempezar.Enabled = True
+cmdempezar.Caption = "empezar"
+lbl1 = "00"
+lbl2 = "00"
+lbl3 = "00"
+End Sub
+
+Private Sub cmdgrabar_Click()
+lsttiempo.AddItem (lbl3.Caption & ":" & lbl2.Caption & ":" & lbl1.Caption)
+End Sub
+
+Private Sub cmdlimpiar_Click()
+lsttiempo.Clear
+End Sub
+
+Private Sub cmdpausa_Click()
+Timer1.Enabled = False
+cmdempezar.Enabled = True
+End Sub
+
+Private Sub cmdquitar_Click()
+If lsttiempo.ListIndex <> -1 Then
+lsttiempo.RemoveItem lsttiempo.ListIndex
+End If
+End Sub
+
+Private Sub Timer1_Timer()
+lbl1.Caption = Val(lbl1.Caption) + 1
+If lbl1.Caption = "100" Then
+lbl1.Caption = "00"
+lbl2.Caption = "0" & Val(lbl2.Caption) + 1
+  If lbl2.Caption > 9 Then
+  lbl2.Caption = Val(lbl2.Caption)
+  End If
+End If
+If lbl2.Caption = "60" Then
+lbl2.Caption = "00"
+lbl3.Caption = "0" & Val(lbl3.Caption) + 1
+  If lbl3.Caption > 9 Then
+  lbl3.Caption = Val(lbl3.Caption)
+  End If
+End If
+End Sub
+
+
+                                                              PARA USUARIO Y CONTRASEÑA
+
+         Entrar:
+If text1.Text = "usuario" and text2.Text = "contraseña" then
+Msgbox "codigo correcto"
+Form1.Hide
+Form2.Show
+Else
+Msgbox "codigo incorrecto"
+End if
+
+         Siquiente:
+Form1.Hide
+Form2.Show
+
+                                                             
